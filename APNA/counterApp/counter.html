@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/jpg" href="count.jpg">
+        <title>Counter App</title>
+    </head>
+    <body>
+        <div class="app-contaiiner">
+            <h1 class="main-heading">Text Count App</h1>
+                <div class="counter">
+                    <p class="count">Words: <span id="wordCount">0</span></p>
+                    <p class="count">Characters: <span id="charCount">0</span></p>
+                    <p class="count">Numbers: <span id="numCount">0</span></p>
+                    <p class="count">Special Character: <span id="splChrCount">0</span></p>
+                    <p class="count">Paragraphs: <span id="paraCount">0</span></p>
+                </div>
+            <textarea id="inputText" placeholder="Please Enter Your Text....." oninput = updates() ></textarea>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

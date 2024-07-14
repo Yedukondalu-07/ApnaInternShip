@@ -1,0 +1,72 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color: rgba(152, 235, 235, 0.755);
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #2ac889,#96deb0, #aedaa6);
+    margin: 250px 150px 250px 150px;
+    border-radius: 10px;
+    max-height: 70vh;
+}
+.search-icon{
+    height: 30px;
+    width: 30px;
+    margin: -10px;
+    border-radius: 20px;
+    border: 1px solid #000 ;
+}
+.search-container input{
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-emoji{
+    font-size: 70px;
+    margin: 0;
+}
+.city{
+    margin: 10px;
+    color: hsl(265, 63%, 54%);
+}
+.temparature{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: hsl(0, 0%, 2%);
+}
+.humidity{
+
+   font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.description{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+.error{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
+    color: rgb(160, 61, 61);
+}
+.windSpeed{
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
